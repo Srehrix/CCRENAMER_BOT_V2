@@ -21,14 +21,12 @@ async def upgrade(bot,update):
 	Price Rs 150  🇮🇳/🌎 1.81$  per Month
 	
 	
-	Pay Using Upi I'd ```9480251952@paytm```
+	Pay Using Upi I'd ```7348962003@paytm```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/lokamanchendekar"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/los89jy0")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Sreehari3")],
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -56,7 +54,5 @@ async def upgradecm(bot,message):
 	After Payment Send Screenshots Of 
         Payment To Admin"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/lokamanchendekar"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/los89jy0")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Sreehari3")], 
 	await message.reply_text(text = text,reply_markup = keybord)
